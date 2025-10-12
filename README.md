@@ -1,85 +1,102 @@
-# 3D Portfolio
+# 🌐 Harsh Vardhan Chaturvedi — Developer Portfolio
 
 ![Portfolio Screenshot](/public/assets/readme_assets/screenshot.png)
 
-3D Portfolio is my personal portfolio website created using Next.js, Tailwind CSS, Three.js, React Three Fiber, and a collection of other technologies. This website showcases my skills, experiences, projects, and allows users to contact me. It also offers a dark and light theme to enhance the user experience.
+This is my **personal developer portfolio website**, built using **Next.js**, **React**, **Tailwind CSS**, and **Three.js**.  
+It showcases my **skills**, **projects**, and **achievements**, while offering a clean, responsive, and modern design — complete with a dark/light mode toggle.
 
-## Table of Contents
+---
 
-1.  [Demo](#demo)
-2.  [Features](#features)
-3.  [Technologies Used](#technologies-used)
-4.  [Packages Used](#packages-used)
-5.  [Getting started](#getting-started)
-6.  [Project Structure](#project-structure)
-7.  [Author](#author)
+## 📋 Table of Contents
 
-## Demo
+1. [Demo](#demo)  
+2. [Features](#features)  
+3. [Technologies Used](#technologies-used)  
+4. [Packages Used](#packages-used)  
+5. [Getting Started](#getting-started)  
+6. [Project Structure](#project-structure)  
+7. [Author](#author)
 
-You can see a live demo of the portfolio website at [https://shivam-sharma-myportfolio.vercel.app/](https://shivam-sharma-myportfolio.vercel.app/).
+---
 
-## Features
+## 🚀 Demo
 
--   **About Me**: A brief introduction about myself.
--   **Experience**: Highlighted my work experience.
--   **Skills**: Listed my skills and expertise.
--   **Projects**: Showcased my projects.
--   **Contact**: Provided a contact form for users to get in touch with me.
--   **Responsive Design**: The website is fully responsive to provide an optimal experience on all devices.
--   **Dark and Light Themes**: Users can switch between dark and light themes to suit their preferences.
+🔗 **Live Site:** [https://hvchaturvedi-portfolio.vercel.app](https://hvchaturvedi-portfolio.vercel.app)  
+(*Replace with your actual deployment link once ready*)
 
-## Technologies Used
+---
 
--   [Next.js](https://nextjs.org)
--   [React](https://reactjs.dev)
--   [Tailwind CSS](https://tailwindcss.com)
--   [Three.js](https://threejs.org)
--   [React Three Fiber](https://github.com/pmndrs/react-three-fiber)
+## ✨ Features
 
-## Packages Used
+- **About Me** – A quick introduction highlighting who I am and what I do.  
+- **Achievements** – My certifications, programs, and extracurricular accomplishments.  
+- **Skills** – A categorized showcase of my technical stack and tools.  
+- **Projects** – Highlighted full-stack and AI-integrated projects.  
+- **Contact** – A section for visitors to connect with me directly.  
+- **Responsive Design** – Optimized for all devices.  
+- **Dark & Light Themes** – Seamless theme switch for enhanced UX.
 
--   [react-parallax-tilt](https://www.npmjs.com/package/react-parallax-tilt)
--   [react-type-animation](https://www.npmjs.com/package/react-type-animation)
--   [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
+---
 
-## Getting started
+## 🧠 Technologies Used
 
-1. Clone this repository to your local machine:
+- [Next.js](https://nextjs.org)  
+- [React](https://react.dev)  
+- [Tailwind CSS](https://tailwindcss.com)  
+- [Three.js](https://threejs.org)  
+- [React Three Fiber](https://github.com/pmndrs/react-three-fiber)
 
-```bash
-git clone https://github.com/Shivam-Sharma-1/3D-Portfolio
-```
+---
 
-2. Change to the project directory:
+## 📦 Packages Used
 
-```bash
+- [react-parallax-tilt](https://www.npmjs.com/package/react-parallax-tilt)  
+- [react-type-animation](https://www.npmjs.com/package/react-type-animation)  
+- [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
+
+---
+
+## ⚙️ Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/hvchaturvedi/3D-Portfolio
+Navigate to the project folder:
+
 cd 3d-portfolio
-```
 
-3. Install the project dependencies:
 
-```bash
+Install dependencies:
+
 npm install
-```
 
-4. To run the development server:
 
-```bash
+Run the development server:
+
 npm run dev
-```
 
-Open your web browser and visit http://localhost:3000 to see the website in action during development.
 
-## Project Structure
+Visit http://localhost:3000
+ to view it locally.
 
-The project structure is organized as follows:
+🗂️ Project Structure
 
--   `components`: React components used to build different sections of the portfolio.
--   `styles`: Styles and theme configurations, including the dark and light themes.
--   `public`: Static assets, such as images and fonts.
--   `pages`: Individual pages of the website.
--   `utils`: Utility functions or helper scripts.
+components/ – React components for portfolio sections.
 
-## Author
+styles/ – Tailwind and theme configurations.
 
--   [@Shivam-Sharma-1](https://github.com/Shivam-Sharma-1)
+public/ – Static assets (images, icons, etc.).
+
+pages/ – Website pages and routing.
+
+utils/ – Helper scripts or reusable utilities.
+
+👨‍💻 Author
+
+Harsh Vardhan Chaturvedi
+📍 Chandigarh, India
+📧 hvchaturvedi1@gmail.com
+
+🔗 LinkedIn
+ | GitHub
+ | LeetCode

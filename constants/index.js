@@ -41,14 +41,14 @@ const services = [
     title: "Frontend Developer",
     icon: <FrontendIcon />,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: <BackendIcon />,
-  // },
-  {
-    title: "Problem Solving",
-    icon: <ProblemSolvingIcon />,
-  },
+   {
+    title: "Backend Developer",
+     icon: <BackendIcon />,
+   },
+ // {
+  //  title: "Problem Solving",
+  //  icon: <ProblemSolvingIcon />,
+//  },
   {
     title: "Freelancer",
     icon: <FreelancerIcon />,
@@ -113,11 +113,11 @@ const technologies = {
       icon: "/assets/tech/expressjs.png",
       link: "https://expressjs.com/",
     },
-    {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
-    },
+   // {
+   //   name: "Flutter",
+   //   icon: "/assets/tech/flutter.svg",
+   //   link: "https://flutter.dev/",
+   // },
   ],
   libraries: [
     {
@@ -140,11 +140,11 @@ const technologies = {
       icon: "/assets/tech/framer.svg",
       link: "https://www.framer.com/motion/",
     },
-    {
-      name: "Zustand",
-      icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
-      link: "https://zustand-demo.pmnd.rs",
-    },
+   // {
+   //  name: "Zustand",
+   //   icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
+   //   link: "https://zustand-demo.pmnd.rs",
+    //},
     {
       name: "Redux/Redux-toolkit",
       icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
@@ -220,59 +220,23 @@ const technologies = {
 };
 
 const experiences = [
-  // {
-  //   title: "Full Stack Developer",
-  //   company_name: "Tech Lead at GDSC MVJCE",
-  //   icon: "/assets/company/gdsc-logo.svg",
-  //   iconBg: "#E6DEDD",
-  //   date: "July 2023 - Present",
-  //   points: [
-  //     "Currently serving as the Tech Lead of GDSC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-  //     "Led induction programs, ensured new member alignment with GDSC's mission, and provided technical mentorship.",
-  //     "Developed GDSC MVJCE website, enhancing the organization's online visibility.",
-  //     "Spearheaded promotional campaigns, actively engaged with the GDSC community, and played a key role in planning and executing events.",
-  //   ],
-  // },
   {
-    title: "Frontend Developer Intern",
-    company_name: "Intern at Curowell Healthcare Private Ltd",
-    icon: "/assets/company/curowell-logo.svg",
+    title: "Achievements & Activities",
+    company_name: "Personal & Academic",
+    icon: "/assets/icons/trophy.svg", 
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "2021 – Present",
     points: [
-      "Developing a healthcare SaaS platform using Next.js, TypeScript, and Tailwind CSS, significantly enhancing user experience.",
-      "Maintaining an efficient codebase under senior guidance, ensuring adherence to best practices in software development.",
-      "Contributing to the DND form microfrontend, improving user interaction by 30%.",
-      "Collaborating in UI/UX design efforts, leading to a 25% reduction in component development time.",
+      "Completed 100xDevs Full Stack Web Development Program by Harkirat Singh (Cohort 2.0).",
+      "Earned certifications in JavaScript Algorithms & Data Structures (FreeCodeCamp) and React (Udemy).",
+      "Participated in Infosys Internship Program 5.0 and completed all required coursework.",
+      "Built key projects including AI Expense Splitting App, Paytm Wallet Clone, and Chatterbox (AI Chat App).",
+      "Volunteered as an NSS member, contributing to donation drives for underprivileged schools.",
+      "Actively practice DSA in C++ and explore DevOps tools like Docker and Jenkins.",
     ],
   },
-  {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
-    icon: "/assets/company/drdo-cabs.png",
-    iconBg: "#E6DEDD",
-    date: "November 2023",
-    points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
-    ],
-  },
-  // {
-  //   title: "Frontend Developer",
-  //   company_name: "Tech team member at GDSC MVJCE",
-  //   icon: "/assets/company/gdsc-logo.svg",
-  //   iconBg: "#E6DEDD",
-  //   date: "February 2022 - July 2023",
-  //   points: [
-  //     "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-  //     "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-  //     "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-  //     "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
-  //   ],
-  // },
 ];
+
 
 const testimonials = [
   {
@@ -303,221 +267,75 @@ const testimonials = [
 
 const projects = [
   {
-    name: "QuickEdit: AI-Powered Image & Video Editor",
+    name: "AI Expense Splitting App",
     description:
-      "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
+      "A full-stack expense splitting platform with AI-assisted categorization and settlement suggestions. Integrated secure authentication via Clerk, real-time data handling with Convex, and background jobs using Inngest. Built a responsive UI using Tailwind CSS and shadcn/ui.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "shadcn",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "cloudinary",
-        color: "yellow-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "next.js", color: "green-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+      { name: "convex", color: "orange-text-gradient" },
+      { name: "prisma", color: "yellow-text-gradient" },
+      { name: "clerk", color: "red-text-gradient" },
+      { name: "inngest", color: "purple-text-gradient" },
+      { name: "shadcn/ui", color: "cyan-text-gradient" },
     ],
-    image:
-      "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
-    deployed_link: "https://quick-edit-app.vercel.app",
+    image: "/assets/projects/ai-expense-split.png",
+    source_code_link: "https://github.com/hvchaturvedi/splitr",
+    deployed_link: "https://splitr-ashy.vercel.app/",
   },
   {
-    name: "FigPro",
+    name: "Paytm Wallet Clone",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "A secure wallet application built using React, Node.js, and MongoDB with JWT-based authentication and Redux for state management. Features wallet transactions, balance view, and mobile-friendly responsive design.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "node.js", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "redux", color: "orange-text-gradient" },
+      { name: "jwt", color: "yellow-text-gradient" },
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/paytm-wallet.png",
+    source_code_link: "https://github.com/hvchaturvedi/PaytmWallet",
+    deployed_link: "",
   },
-  // {
-  //   name: "GDSC Website",
-  //   description:
-  //     "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "styled-components",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "three.js",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "prisma",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "framer-motion",
-  //       color: "yellow-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/gdsc-website.png",
-  //   source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-  //   deployed_link: "https://gdscmvjce.vercel.app/",
-  // },
   {
-    name: "Facility Management System",
+    name: "Chatterbox — Real-Time Chat with AI",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "An AI-powered real-time chat application using the MERN stack. Integrated Socket.io for instant messaging, Redis for message queuing and rate limiting, and Gemini API for AI-driven conversation responses.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
+      { name: "mern", color: "blue-text-gradient" },
+      { name: "socket.io", color: "green-text-gradient" },
+      { name: "redis", color: "pink-text-gradient" },
+      { name: "gemini-api", color: "orange-text-gradient" },
     ],
-    image: "/assets/projects/facility-manager.png",
-    source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
-    deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+    image: "/assets/projects/chatterbox.png",
+    source_code_link: "https://github.com/hvchaturvedi/chatApp",
+    deployed_link: "",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
 ];
 
 const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/hvchaturvedi",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/hvchaturvedi",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
-  },
-  {
-    id: "instagram",
-    icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
-  },
+    link: "https://x.com/hvchaturvedi",
+  }
+  //{
+   // id: "instagram",
+   // icon: <InstagramIcon />,
+   // link: "https://www.instagram.com/_.shivam._.here._",
+ // },
 ];
 
 const heroTexts = [
