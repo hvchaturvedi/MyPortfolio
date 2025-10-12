@@ -1,7 +1,5 @@
 # 🌐 Harsh Vardhan Chaturvedi — Developer Portfolio
 
-![Portfolio Screenshot](/public/assets/readme_assets/screenshot.png)
-
 This is my **personal developer portfolio website**, built using **Next.js**, **React**, **Tailwind CSS**, and **Three.js**.  
 It showcases my **skills**, **projects**, and **achievements**, while offering a clean, responsive, and modern design — complete with a dark/light mode toggle.
 
