@@ -20,6 +20,7 @@ function About() {
         <p className={"sectionSubText text-gray-300"}>Introduction</p>
         <h2 className={"sectionHeadText text-white"}>Overview.</h2>
       </motion.div>
+
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
         initial="hidden"
@@ -28,7 +29,7 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I'm Harsh Vardhan Chaturvedi, a recent Computer Science
+          Hello! I&apos;m Harsh Vardhan Chaturvedi, a recent Computer Science
           graduate from Chandigarh University and a passionate full-stack
           developer with a deep interest in MERN stack and Artificial
           Intelligence. I enjoy building scalable, efficient, and user-centric
@@ -36,14 +37,15 @@ function About() {
           seamless user experiences. My technical expertise includes JavaScript,
           React.js, Node.js, Express.js, MongoDB, and TailwindCSS, along with a
           strong foundation in data structures, algorithms, and problem-solving.
-          I’m always eager to explore the intersection of AI and modern web
+          I&apos;m always eager to explore the intersection of AI and modern web
           development, crafting solutions that are both smart and impactful.
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
+
         <div className="w-fit break-words">
           <Link
-            href="hvchaturvedi1@gmail.com"
+            href="mailto:hvchaturvedi1@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
@@ -52,6 +54,7 @@ function About() {
             hvchaturvedi1@gmail.com
           </Link>
         </div>
+
         <div className="flex gap-5 items-center">
           {socials.map((social) => (
             <Link
@@ -64,6 +67,7 @@ function About() {
             </Link>
           ))}
         </div>
+
         <Link
           href="document/CurrentResume.pdf"
           target="_blank"
